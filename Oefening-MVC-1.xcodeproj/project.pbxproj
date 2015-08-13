@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA530C31B7CDFC3007EA389 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA530C21B7CDFC3007EA389 /* main.m */; };
+		ABA530C61B7CDFC3007EA389 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA530C51B7CDFC3007EA389 /* AppDelegate.m */; };
+		ABA530CE1B7CDFC3007EA389 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA530CD1B7CDFC3007EA389 /* Images.xcassets */; };
+		ABA530D11B7CDFC3007EA389 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA530CF1B7CDFC3007EA389 /* LaunchScreen.xib */; };
+		ABA530DD1B7CDFC3007EA389 /* Oefening_MVC_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA530DC1B7CDFC3007EA389 /* Oefening_MVC_1Tests.m */; };
+		ABA530F01B7CE03A007EA389 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA530EB1B7CE03A007EA389 /* BlogPost.m */; };
+		ABA530F11B7CE03A007EA389 /* BlogPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA530ED1B7CE03A007EA389 /* BlogPostTableViewCell.m */; };
+		ABA530F21B7CE03A007EA389 /* BlogPostTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA530EF1B7CE03A007EA389 /* BlogPostTableViewController.m */; };
+		ABA530F71B7CE190007EA389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA530F51B7CE190007EA389 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA530D71B7CDFC3007EA389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA530B51B7CDFC3007EA389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA530BC1B7CDFC3007EA389;
+			remoteInfo = "Oefening-MVC-1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABA530BD1B7CDFC3007EA389 /* Oefening-MVC-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oefening-MVC-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA530C11B7CDFC3007EA389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA530C21B7CDFC3007EA389 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABA530C41B7CDFC3007EA389 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABA530C51B7CDFC3007EA389 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABA530CD1B7CDFC3007EA389 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABA530D01B7CDFC3007EA389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABA530D61B7CDFC3007EA389 /* Oefening-MVC-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oefening-MVC-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA530DB1B7CDFC3007EA389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA530DC1B7CDFC3007EA389 /* Oefening_MVC_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oefening_MVC_1Tests.m; sourceTree = "<group>"; };
+		ABA530EA1B7CE03A007EA389 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlogPost.h; path = Classes/BlogPost.h; sourceTree = "<group>"; };
+		ABA530EB1B7CE03A007EA389 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlogPost.m; path = Classes/BlogPost.m; sourceTree = "<group>"; };
+		ABA530EC1B7CE03A007EA389 /* BlogPostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlogPostTableViewCell.h; path = Classes/BlogPostTableViewCell.h; sourceTree = "<group>"; };
+		ABA530ED1B7CE03A007EA389 /* BlogPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlogPostTableViewCell.m; path = Classes/BlogPostTableViewCell.m; sourceTree = "<group>"; };
+		ABA530EE1B7CE03A007EA389 /* BlogPostTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlogPostTableViewController.h; path = Classes/BlogPostTableViewController.h; sourceTree = "<group>"; };
+		ABA530EF1B7CE03A007EA389 /* BlogPostTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlogPostTableViewController.m; path = Classes/BlogPostTableViewController.m; sourceTree = "<group>"; };
+		ABA530F61B7CE190007EA389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA530BA1B7CDFC3007EA389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA530D31B7CDFC3007EA389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA530B41B7CDFC3007EA389 = {
+			isa = PBXGroup;
+			children = (
+				ABA530BF1B7CDFC3007EA389 /* Oefening-MVC-1 */,
+				ABA530D91B7CDFC3007EA389 /* Oefening-MVC-1Tests */,
+				ABA530BE1B7CDFC3007EA389 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA530BE1B7CDFC3007EA389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA530BD1B7CDFC3007EA389 /* Oefening-MVC-1.app */,
+				ABA530D61B7CDFC3007EA389 /* Oefening-MVC-1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA530BF1B7CDFC3007EA389 /* Oefening-MVC-1 */ = {
+			isa = PBXGroup;
+			children = (
+				ABA530E61B7CDFF3007EA389 /* Application */,
+				ABA530E71B7CDFFA007EA389 /* Controllers */,
+				ABA530F31B7CE043007EA389 /* Models */,
+				ABA530F41B7CE047007EA389 /* Views */,
+				ABA530E91B7CE00B007EA389 /* Resources */,
+				ABA530C01B7CDFC3007EA389 /* Supporting Files */,
+			);
+			path = "Oefening-MVC-1";
+			sourceTree = "<group>";
+		};
+		ABA530C01B7CDFC3007EA389 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA530C11B7CDFC3007EA389 /* Info.plist */,
+				ABA530C21B7CDFC3007EA389 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA530D91B7CDFC3007EA389 /* Oefening-MVC-1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA530DC1B7CDFC3007EA389 /* Oefening_MVC_1Tests.m */,
+				ABA530DA1B7CDFC3007EA389 /* Supporting Files */,
+			);
+			path = "Oefening-MVC-1Tests";
+			sourceTree = "<group>";
+		};
+		ABA530DA1B7CDFC3007EA389 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA530DB1B7CDFC3007EA389 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA530E61B7CDFF3007EA389 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				ABA530C41B7CDFC3007EA389 /* AppDelegate.h */,
+				ABA530C51B7CDFC3007EA389 /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		ABA530E71B7CDFFA007EA389 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABA530EE1B7CE03A007EA389 /* BlogPostTableViewController.h */,
+				ABA530EF1B7CE03A007EA389 /* BlogPostTableViewController.m */,
+				ABA530E81B7CE003007EA389 /* Storyboards */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		ABA530E81B7CE003007EA389 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ABA530F51B7CE190007EA389 /* Main.storyboard */,
+				ABA530CF1B7CDFC3007EA389 /* LaunchScreen.xib */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		ABA530E91B7CE00B007EA389 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABA530CD1B7CDFC3007EA389 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ABA530F31B7CE043007EA389 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABA530EA1B7CE03A007EA389 /* BlogPost.h */,
+				ABA530EB1B7CE03A007EA389 /* BlogPost.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		ABA530F41B7CE047007EA389 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABA530EC1B7CE03A007EA389 /* BlogPostTableViewCell.h */,
+				ABA530ED1B7CE03A007EA389 /* BlogPostTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA530BC1B7CDFC3007EA389 /* Oefening-MVC-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA530E01B7CDFC3007EA389 /* Build configuration list for PBXNativeTarget "Oefening-MVC-1" */;
+			buildPhases = (
+				ABA530B91B7CDFC3007EA389 /* Sources */,
+				ABA530BA1B7CDFC3007EA389 /* Frameworks */,
+				ABA530BB1B7CDFC3007EA389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Oefening-MVC-1";
+			productName = "Oefening-MVC-1";
+			productReference = ABA530BD1B7CDFC3007EA389 /* Oefening-MVC-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA530D51B7CDFC3007EA389 /* Oefening-MVC-1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA530E31B7CDFC3007EA389 /* Build configuration list for PBXNativeTarget "Oefening-MVC-1Tests" */;
+			buildPhases = (
+				ABA530D21B7CDFC3007EA389 /* Sources */,
+				ABA530D31B7CDFC3007EA389 /* Frameworks */,
+				ABA530D41B7CDFC3007EA389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA530D81B7CDFC3007EA389 /* PBXTargetDependency */,
+			);
+			name = "Oefening-MVC-1Tests";
+			productName = "Oefening-MVC-1Tests";
+			productReference = ABA530D61B7CDFC3007EA389 /* Oefening-MVC-1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA530B51B7CDFC3007EA389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = EASI;
+				TargetAttributes = {
+					ABA530BC1B7CDFC3007EA389 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					ABA530D51B7CDFC3007EA389 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = ABA530BC1B7CDFC3007EA389;
+					};
+				};
+			};
+			buildConfigurationList = ABA530B81B7CDFC3007EA389 /* Build configuration list for PBXProject "Oefening-MVC-1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA530B41B7CDFC3007EA389;
+			productRefGroup = ABA530BE1B7CDFC3007EA389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA530BC1B7CDFC3007EA389 /* Oefening-MVC-1 */,
+				ABA530D51B7CDFC3007EA389 /* Oefening-MVC-1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA530BB1B7CDFC3007EA389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA530F71B7CE190007EA389 /* Main.storyboard in Resources */,
+				ABA530D11B7CDFC3007EA389 /* LaunchScreen.xib in Resources */,
+				ABA530CE1B7CDFC3007EA389 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA530D41B7CDFC3007EA389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA530B91B7CDFC3007EA389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA530C61B7CDFC3007EA389 /* AppDelegate.m in Sources */,
+				ABA530F01B7CE03A007EA389 /* BlogPost.m in Sources */,
+				ABA530C31B7CDFC3007EA389 /* main.m in Sources */,
+				ABA530F11B7CE03A007EA389 /* BlogPostTableViewCell.m in Sources */,
+				ABA530F21B7CE03A007EA389 /* BlogPostTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA530D21B7CDFC3007EA389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA530DD1B7CDFC3007EA389 /* Oefening_MVC_1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA530D81B7CDFC3007EA389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA530BC1B7CDFC3007EA389 /* Oefening-MVC-1 */;
+			targetProxy = ABA530D71B7CDFC3007EA389 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABA530CF1B7CDFC3007EA389 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA530D01B7CDFC3007EA389 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		ABA530F51B7CE190007EA389 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA530F61B7CE190007EA389 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA530DE1B7CDFC3007EA389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABA530DF1B7CDFC3007EA389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA530E11B7CDFC3007EA389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Oefening-MVC-1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABA530E21B7CDFC3007EA389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Oefening-MVC-1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABA530E41B7CDFC3007EA389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Oefening-MVC-1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oefening-MVC-1.app/Oefening-MVC-1";
+			};
+			name = Debug;
+		};
+		ABA530E51B7CDFC3007EA389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Oefening-MVC-1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oefening-MVC-1.app/Oefening-MVC-1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA530B81B7CDFC3007EA389 /* Build configuration list for PBXProject "Oefening-MVC-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA530DE1B7CDFC3007EA389 /* Debug */,
+				ABA530DF1B7CDFC3007EA389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA530E01B7CDFC3007EA389 /* Build configuration list for PBXNativeTarget "Oefening-MVC-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA530E11B7CDFC3007EA389 /* Debug */,
+				ABA530E21B7CDFC3007EA389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABA530E31B7CDFC3007EA389 /* Build configuration list for PBXNativeTarget "Oefening-MVC-1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA530E41B7CDFC3007EA389 /* Debug */,
+				ABA530E51B7CDFC3007EA389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA530B51B7CDFC3007EA389 /* Project object */;
+}
