@@ -1,7 +1,7 @@
 # Oefening-MVC-1
 ## Tips
-1. Een project build je met cmd+B
-2. Een project run je met cmd+R
+1. Een project build je met ⌘+B
+2. Een project run je met ⌘+R
 
 ## Opgaves
 1. Zorg ervoor dat het project compileert.
