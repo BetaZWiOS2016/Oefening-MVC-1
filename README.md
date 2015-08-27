@@ -1,4 +1,5 @@
 # Oefening-MVC-1
+
 ## Tips
 1. Een project build je met ⌘+B
 2. Een project run je met ⌘+R
@@ -11,3 +12,6 @@
 5. _Probeer een rij te verwijderen uit de tabel zodra je deze aanklikt._
 6. _Voeg animatie toe aan het verwijderen van de rij._
 7. _Voeg swipe-to-delete in._
+
+## Oplossing
+De oplossingen vind je terug onder de branch **oplossing** van deze repository.
