@@ -1,5 +1,7 @@
 # Oefening-MVC-1
 
+In deze oefening focus je op het **dataSource** en **delegate** principe.
+
 ## Tips
 1. Een project build je met ⌘+B
 2. Een project run je met ⌘+R
