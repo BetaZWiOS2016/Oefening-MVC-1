@@ -10,7 +10,9 @@
 
 @interface BlogPost : NSObject
 
-@property (strong, nonatomic, readonly) NSString *title;
+//@property (strong, nonatomic, readonly) NSString *title;
+// when you add `readonly` to a property, only the getter will be created for you, the setter will not exist
+@property (strong, nonatomic) NSString *title;
 
 + (BlogPost *)createBlogPostWithTitle:(NSString *)title;
 

@@ -13,7 +13,9 @@
 
 @interface BlogPostTableViewController () <UITableViewDataSource, UITableViewDelegate>
 
-@property (weak, nonatomic) NSArray *blogPosts;
+//@property (weak, nonatomic) NSArray *blogPosts;
+// if the reference type is set to `weak` the memory allocated in the heap will not remain allocated but will be released asap
+@property (strong, nonatomic) NSArray *blogPosts;
 
 - (IBAction)didTapShuffleButton:(UIBarButtonItem *)sender;
 - (void)createBlogPosts;
@@ -29,7 +31,9 @@
 {
     [super viewDidLoad];
     
-#warning - blog posts should be created here
+//#warning - blog posts should be created here
+    // calling functions in Objective-C is done using this syntax: `[object methodName];`
+    [self createBlogPosts];
 }
 
 #pragma mark - UITableViewDataSource
@@ -52,7 +56,9 @@
     // get the model
     BlogPost *blogPost = self.blogPosts[indexPath.row];
     
-#warning - configure the cell
+//#warning - configure the cell
+    // passing a parameter to a function is done using this syntax: `[object methodName:parameter];`
+    [cell configureForBlogPost:blogPost];
     
     return cell;
 }
@@ -75,7 +81,8 @@
 
 #pragma mark - IBAction
 
-#warning - (wait with this exercise until the table view is working) add a button to this controller in Interface Builder (IB) and connect it to this IBAction to add the shuffle functionality
+//#warning - (wait with this exercise until the table view is working) add a button to this controller in Interface Builder (IB) and connect it to this IBAction to add the shuffle functionality
+// select a UIBarButtonItem in the storyboard objects panel and drag it into the UINavigationBar, then connect it to this view controller
 - (IBAction)didTapShuffleButton:(UIBarButtonItem *)sender
 {
     [self createBlogPosts];

@@ -15,7 +15,8 @@
 + (BlogPost *)createBlogPostWithTitle:(NSString *)title
 {
     BlogPost *blogPost = [BlogPost new];
-#warning - set the title of the blogpost
+//#warning - set the title of the blogpost
+    blogPost.title = title;
     
     return blogPost;
 }

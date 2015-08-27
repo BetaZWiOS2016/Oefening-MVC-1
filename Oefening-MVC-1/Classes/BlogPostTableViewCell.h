@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+// you need to import the header files of any class you want to use
+// always import .h files, never .m files
+#import "BlogPost.h"
+
 @interface BlogPostTableViewCell : UITableViewCell
 
 - (void)configureForBlogPost:(BlogPost *)blogPost;

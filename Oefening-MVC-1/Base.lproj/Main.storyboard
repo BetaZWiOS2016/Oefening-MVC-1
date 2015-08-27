@@ -31,10 +31,19 @@
                                         <constraint firstAttribute="trailing" secondItem="ynq-yE-AkI" secondAttribute="trailing" constant="20" id="upq-3w-312"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="titleLabel" destination="ynq-yE-AkI" id="lbc-N4-eIB"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Lorum ipsum" id="bSi-Te-isF"/>
+                    <navigationItem key="navigationItem" title="Lorum ipsum" id="bSi-Te-isF">
+                        <barButtonItem key="rightBarButtonItem" title="Shuffle" id="YXQ-DR-k4s">
+                            <connections>
+                                <action selector="didTapShuffleButton:" destination="M42-Fk-huN" id="2CU-yX-R7w"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GwC-JZ-Pyw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

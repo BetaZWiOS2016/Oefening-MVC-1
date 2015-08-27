@@ -10,7 +10,8 @@
 
 @interface BlogPostTableViewCell ()
 
-#warning - connect this outlet
+//#warning - connect this outlet
+// make sure to connect this outlet to UITableViewCell (!) in the storyboard
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 @end
@@ -21,7 +22,10 @@
 
 - (void)configureForBlogPost:(BlogPost *)blogPost
 {
-#warning - set the titleLabel's "text" property to the blogPosts's "title" property
+//#warning - set the titleLabel's "text" property to the blogPosts's "title" property
+    // both lines do the same
+    self.titleLabel.text = blogPost.title;          // this line is using the dot notation, only available on properties
+    [[self titleLabel] setText:[blogPost title]];   // this line is using the methods (getter and setter) created for you when defining properties
 }
 
 @end
